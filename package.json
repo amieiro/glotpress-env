@@ -1,0 +1,25 @@
+{
+  "name": "glotpress-env",
+  "version": "1.0.0",
+  "description": "Local development tools for GlotPress",
+  "author": "Jesús Amieiro",
+  "license": "GPL-2.0-or-later",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "@wordpress/env": "^4.0.0"
+  },
+  "scripts": {
+    "provision": "./provision.sh",
+    "start": "npm run provision && npm run wp-env start",
+    "wp-env": "wp-env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amieiro/glotpress-env"
+  },
+  "bugs": {
+    "url": "https://github.com/amieiro/glotpress-env/issues"
+  },
+  "homepage": "https://github.com/amieiro/glotpress-env#readme"
+}
