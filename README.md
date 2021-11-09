@@ -29,11 +29,13 @@ Execute:
 
 `npm run wp-env run cli wp glotpress import-originals plugins/jetpack wp-content/uploads/jetpack.po`
 
-## Stopping Environment
-`npm run wp-env stop`
+## Useful commands
 
-## Removing Environment
-`npm run wp-env destroy`
+- Start and provision the environment: `npm run start`
+- Stop the environment: `npm run stop`
+- Destroy the environment: `npm run destroy`
+- Destroy and reprovision the environment: `npm run destroy-and-provision`
+
 
 ## More info
 
