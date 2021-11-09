@@ -12,6 +12,9 @@
   "scripts": {
     "provision": "./provision.sh",
     "start": "npm run provision && npm run wp-env start",
+    "stop": "npm run wp-env stop",
+    "destroy": "npm run wp-env destroy",
+    "destroy-and-provision": "yes | npm run destroy && npm run start",
     "wp-env": "wp-env"
   },
   "repository": {
